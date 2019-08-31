@@ -1,6 +1,7 @@
 #!/bin/sh
 
 ssh root@35.172.133.82 <<EOF
+  cd /var/www/html
   cd djtrump
   git pull
   source /opt/envs/djtrump/bin/activate
